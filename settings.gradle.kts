@@ -21,7 +21,7 @@ dependencyResolutionManagement {
         maven { 
             url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
         }
-        // Запасной вариант — JitPack (если автор публикует через GitHub)
+        // JitPack как запасной вариант
         maven { 
             url = uri("https://jitpack.io")
         }
