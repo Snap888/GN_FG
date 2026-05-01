@@ -297,16 +297,6 @@ dependencies {
     implementation("com.auth0.android:jwtdecode:2.0.2")
 }
 
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        // Добавьте этот репозиторий для SNAPSHOT-зависимостей:
-        maven {
-            url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
-        }
-    }
-}
+
 
 
