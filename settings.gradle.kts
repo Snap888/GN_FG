@@ -17,9 +17,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        // Исправленный URL для Sonatype Snapshots (JavaSteam)
+        // Sonatype Snapshots для JavaSteam
         maven { 
             url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+        }
+        // Запасной вариант — JitPack (если автор публикует через GitHub)
+        maven { 
+            url = uri("https://jitpack.io")
         }
     }
 }
